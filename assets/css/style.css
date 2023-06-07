@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Roboto;
+    src: url(..//../fonts/Roboto-Regular.ttf)
+}
+
+body {
+    background-color: #E5E5E5;
+    justify-content: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    width: 414px;
+    height: 896px;
+    background-color: #FFFFFF;
+    box-shadow: -3px -4px 28px rgba(103, 103, 103, 0.25), 6px 6px 25px rgba(103, 103, 103, 0.25);
+    border-radius: 15px;
+    position: absolute;
+    z-index: 2;
+}
+
+.choos p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.Customize {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #414141;
+}
+
+.rectangle1 {
+    position: absolute;
+    width: 133px;
+    height: 49px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 22px rgba(0, 0, 0, 0.25);
+    border-radius: 24.5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    color: #363636;
+    border: none;
+    z-index: 2;
+    right: 195px;
+}
+
+
+.rectangle2 {
+    position: relative;
+    width: 244px;
+    height: 49px;
+    background-color: #C4C4C4;
+    border-radius: 24.5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    color: #747474;
+    padding-top: 7px;
+    padding-left: 140px;
+    border: none;
+    z-index: 1;
+}
+
+
+.skip {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: flex-end;
+    color: #000000;
+}
+
+
+.circle-sm-div {
+    width: 46px;
+    height: 43px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: -2px -2px 4px rgba(103, 103, 103, 0.25), 2px 2px 4px rgba(100, 100, 100, 0.25);
+}
+
+.circle-sm-div p {
+    color: #8B8989;
+
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .div-svg {
+        left: 20px;
+    }
+}
