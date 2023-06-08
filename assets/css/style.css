@@ -140,7 +140,7 @@ body {
     height: 156px;
     border-radius: 50%;
     background: #383838;
-    box-shadow: inset -17px 13px 0 0 #6732FE 10.71%, inset -17px 13px 0 0 #F344EE 79.03%;
+    box-shadow: -17px 13px 0 0 rgb(34, 0, 255);
 
 
 }
