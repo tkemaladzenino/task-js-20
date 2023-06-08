@@ -40,6 +40,11 @@ body {
     display: none;
 }
 
+.choos {
+    display: flex;
+
+}
+
 .choos p {
     font-family: Roboto;
     font-style: normal;
@@ -110,6 +115,7 @@ body {
 
 
 .circle-sm-div {
+    display: flex;
     width: 46px;
     height: 43px;
     background: #FFFFFF;
@@ -117,10 +123,37 @@ body {
     box-shadow: -2px -2px 4px rgba(103, 103, 103, 0.25), 2px 2px 4px rgba(100, 100, 100, 0.25);
 }
 
-.circle-sm-div p {
-    color: #8B8989;
+.circle-sm-div-2 {
+    display: none;
+    width: 46px;
+    height: 43px;
+
+    border-radius: 50%;
+    box-shadow: -2px -2px 4px rgba(103, 103, 103, 0.25), 2px 2px 4px rgba(100, 100, 100, 0.25);
+}
+
+
+
+.moon-div {
+
+    width: 156px;
+    height: 156px;
+    border-radius: 50%;
+    background: #383838;
+    box-shadow: inset -17px 13px 0 0 #6732FE 10.71%, inset -17px 13px 0 0 #F344EE 79.03%;
+
 
 }
+
+#imgarrow {
+    display: flex;
+}
+
+#imgarrow-2 {
+    display: none;
+}
+
+
 
 
 
