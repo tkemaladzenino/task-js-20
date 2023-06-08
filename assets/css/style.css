@@ -11,6 +11,17 @@ body {
     margin: 0;
 }
 
+.semicircle-1-div {
+    display: flex;
+    z-index: 1;
+}
+
+.semicircle-2-div {
+    display: none;
+    z-index: 1;
+
+}
+
 .box {
     width: 414px;
     height: 896px;
@@ -19,6 +30,14 @@ body {
     border-radius: 15px;
     position: absolute;
     z-index: 2;
+}
+
+.status-bar-1 {
+    display: flex;
+}
+
+.status-bar-2 {
+    display: none;
 }
 
 .choos p {

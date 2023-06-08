@@ -15,18 +15,26 @@
 
     <script type="text/javascript">
 
-        function dark() {
+        function night() {
 
-            document.getElementById("img-222").src = "./image/Ellipse-dark.png";
+            document.getElementById("semicircle-1").style.display = "none";
+            document.getElementById("semicircle-2").style.display = "flex";
 
-            document.body.style.backgroundColor = "rgba(32, 32, 32, 0.3)";
+            document.getElementById("bar-1").style.display = "none";
+            document.getElementById("bar-2").style.display = "flex";
+            document.getElementById("mobile-box").style.backgroundColor = "#383838";
+            document.body.style.backgroundColor = "#383838";
         }
 
-        function light() {
+        function day() {
 
-            document.getElementById("img-11").style.display = "flex";
-            document.getElementById("img-22").style.display = "none";
-            document.body.style.backgroundColor = "white";
+            document.getElementById("semicircle-1").style.display = "flex";
+            document.getElementById("semicircle-2").style.display = "none";
+
+            document.getElementById("bar-1").style.display = "flex";
+            document.getElementById("bar-2").style.display = "none";
+            document.getElementById("mobile-box").style.backgroundColor = "#FFFFFF";
+            document.body.style.backgroundColor = "#FFFFFF";
         }
 
 
@@ -36,21 +44,26 @@
 <body>
 
 
-    <div class=" img-1  d-flex position-relative justify-content-center" id="img-11" style="z-index: 1;">
-        <img id="img-111" src="./images/Ellipse.png">
-    </div>
-    <div class=" img-2 d-none position-relative justify-content-center" id="img-22" style="z-index: 1;">
-        <img id="img-222" src="./images/Ellipse-dark.png">
+    <div class="semicircles img-1  d-flex position-relative justify-content-center">
+        <div class="semicircle-1-div justify-content-center" id="semicircle-1">
+            <img src="./images/Ellipse.png">
+        </div>
+        <div class="semicircle-2-div justify-content-center" id="semicircle-2">
+            <img src="./images/Ellipse-dark.png">
+        </div>
     </div>
 
     <div class="container d-flex justify-content-center ">
         <div class="row">
             <div class="col-md-6 col-12 d-flex justify-content-center">
-                <div class="box " style="top: 64px; bottom: 64px;">
-                    <div class="status-bar d-flex justify-content-center" style="margin-top: 17px;">
+                <div class="box" id="mobile-box" style="top: 64px; bottom: 64px;">
+                    <div class="status-bar-1  justify-content-center" id="bar-1" style="margin-top: 17px;">
                         <img src="./images/status-bar.png">
                     </div>
-                    <div class="circle1-div d-flex justify-content-center" style="margin-top: 68px;">
+                    <div class="status-bar-2  justify-content-center" id="bar-2" style="margin-top: 17px;">
+                        <img src="./images/header-white.png">
+                    </div>
+                    <div class="circle1-div d-flex justify-content-center" id="circle-2" style="margin-top: 68px;">
                         <img src="./images/circle1.png">
                     </div>
                     <div class="choos d-flex justify-content-center" style="margin-top: 109px;">
@@ -63,8 +76,8 @@
                     <div class="rect-1-div d-flex justify-content-center" style="position: relative; margin-top: 76px;">
                         <div class="rectang-div">
 
-                            <button class="rectangle2" onclick="dark()" type="button" id="btn-2">Dark</button>
-                            <button class="rectangle1" onclick="light()" type="button" id="btn-1">Light</button>
+                            <button class="rectangle2" onclick="night()" type="button" id="btn-2">Dark</button>
+                            <button class="rectangle1" onclick="day()" type="button" id="btn-1">Light</button>
 
                         </div>
                     </div>
