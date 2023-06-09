@@ -40,6 +40,8 @@ body {
     display: none;
 }
 
+
+
 .choos {
     display: flex;
 
@@ -64,7 +66,9 @@ body {
     color: #414141;
 }
 
-.rectangle1 {
+
+
+#btn-1 {
     position: absolute;
     width: 133px;
     height: 49px;
@@ -83,8 +87,8 @@ body {
 }
 
 
-.rectangle2 {
-    position: relative;
+#btn-2 {
+
     width: 244px;
     height: 49px;
     background-color: #C4C4C4;
@@ -132,17 +136,42 @@ body {
     box-shadow: -2px -2px 4px rgba(103, 103, 103, 0.25), 2px 2px 4px rgba(100, 100, 100, 0.25);
 }
 
+.circle-1-div {
+    width: 156px;
+    height: 156px;
+
+    border-radius: 50%;
+    background: linear-gradient(48.07deg, #FF3333 10.71%, rgba(255, 223, 57, 0.76) 79.03%);
+}
+
+.circle1-div {
+    display: flex;
+}
+
+.circle2-div {
+    display: none;
+}
 
 
 .moon-div {
 
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    margin-left: -97px;
+    margin-top: 17px;
+    background: #383838;
+    z-index: 2;
+}
+
+.moon {
     width: 156px;
     height: 156px;
+    left: 40px;
+    top: 20px;
     border-radius: 50%;
-    background: #383838;
-    box-shadow: -17px 13px 0 0 rgb(34, 0, 255);
-
-
+    z-index: 1;
+    background: linear-gradient(48.07deg, #6732FE 10.71%, #F344EE 79.03%);
 }
 
 #imgarrow {
