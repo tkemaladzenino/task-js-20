@@ -3,6 +3,11 @@
     src: url(..//../fonts/Roboto-Regular.ttf)
 }
 
+@font-face {
+    font-family: SF UI Text;
+    src: url(..//../fonts/SFUIText-Regular.ttf)
+}
+
 body {
     background-color: #E5E5E5;
     justify-content: center;
@@ -32,12 +37,37 @@ body {
     z-index: 2;
 }
 
-.status-bar-1 {
+
+
+
+.header {
+    width: 375px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.status-bar-2 {
-    display: none;
+.p-GS {
+    font-family: SF UI Text;
+    font-size: 14px;
+    margin-left: 3.5px;
+    color: black;
+
+}
+
+.rightpart {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.p-AM {
+    font-family: SF UI Text;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 14px;
 }
 
 
